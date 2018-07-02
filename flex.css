@@ -1,0 +1,24 @@
+.cont{
+    background-color: black;
+    width: 600px;
+    margin: 0 auto;
+  }
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+  }
+
+.cont{
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.box{
+    margin: 10px;
+}
+.box:nth-of-type(1) {
+    align-self: flex-end;
+}
